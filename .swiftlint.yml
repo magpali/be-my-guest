@@ -1,0 +1,32 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  #- R.generated.swift
+
+disabled_rules:
+  - type_name
+  - force_try
+  - nesting
+  - control_statement
+  - statement_position
+  - todo
+  - valid_docs
+  - missing_docs
+  - function_parameter_count
+  - cyclomatic_complexity
+  - unused_closure_parameter
+  - unused_optional_binding
+  - redundant_void_return
+  - void_return
+  - vertical_parameter_alignment
+  - unused_enumerated
+
+opt_in_rules: # some rules are only opt-in
+  - force_https
+  - empty_count
+  - conditional_binding_cascade
+  - explicit_failure_calls
+  - explicit_init
+  - redundant_nil_coalescing
+  - syntactic_sugar
+
+line_length: 120
