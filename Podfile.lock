@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Cartography (3.0.1)
+  - KIF (3.6.0):
+    - KIF/Core (= 3.6.0)
+  - KIF-Quick (1.1.0):
+    - KIF (~> 3.0)
+    - Quick (~> 1.0)
+  - KIF/Core (3.6.0)
+  - Moya/Core (10.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+  - Result (3.2.4)
+  - RxSwift (4.1.1)
+  - SwiftLint (0.24.2)
+
+DEPENDENCIES:
+  - Cartography (~> 3.0)
+  - KIF (~> 3.6)
+  - KIF-Quick (~> 1.1)
+  - Moya/RxSwift (~> 10.0)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2)
+  - RxSwift (~> 4.1)
+  - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  KIF: bd770edd8ce49bc7308501e4871e58a02d137be3
+  KIF-Quick: da968bbfad615fd96c0d5eb4d8fd484ecdc26814
+  Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+  SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+
+PODFILE CHECKSUM: b59cfc58bc41e444bffbea0d722b5a8d7684389c
+
+COCOAPODS: 1.4.0
